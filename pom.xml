@@ -34,11 +34,12 @@
 			<extension>
 				<groupId>kr.motd.maven</groupId>
 				<artifactId>os-maven-plugin</artifactId>
-				<version>1.4.1.Final</version>
+				<version>1.5.0.Final</version>
 			</extension>
 		</extensions>
 		<plugins>
 			<plugin>
+			<!-- for Eclipse see https://github.com/trustin/os-maven-plugin#issues-with-eclipse-m2e-or-other-ides -->
 				<groupId>org.xolstice.maven.plugins</groupId>
 				<artifactId>protobuf-maven-plugin</artifactId>
 				<version>0.5.0</version>
